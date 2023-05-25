@@ -1,0 +1,11 @@
+name: KnockbackStick
+author: getxd
+version: '${project.version}'
+main: getxd.getxd.knockback.Knockback
+api-version: 1.19
+commands:
+  deletestick:
+    description: Deletes all the super knockback sticks from all players' inventories.
+    usage: /deletestick
+    permission: knockbackstick.delete
+    aliases: [ds, delstick]
